@@ -1,0 +1,31 @@
+name: Joomla FinOps
+description: >
+  Joomla is free and open-source software. There are no per-call, per-seat, or
+  usage-based charges for the Joomla REST API. Financial operations for
+  organizations using Joomla are driven by infrastructure and third-party
+  service costs rather than API consumption costs.
+cost_model: Open Source / Free
+api_call_cost: $0.00
+dimensions: []
+cost_drivers:
+  - name: Hosting
+    description: >
+      Web hosting costs (shared, VPS, dedicated, or cloud) are the primary
+      operational expense. Joomla runs on standard LAMP/LEMP stacks.
+  - name: Premium Extensions
+    description: >
+      Commercial plugins and templates available through the Joomla Extensions
+      Directory may carry one-time purchase or subscription fees set by
+      third-party developers.
+  - name: Commercial Support
+    description: >
+      Third-party agencies and consultants provide paid Joomla support,
+      maintenance, and development services.
+  - name: CDN / Security Services
+    description: >
+      Optional CDN, WAF, or DDoS protection services (e.g., Cloudflare) add
+      operational costs for high-traffic sites.
+notes: >
+  Because Joomla itself is free, FinOps practice for Joomla deployments focuses
+  on right-sizing hosting infrastructure and optimizing third-party extension
+  licensing rather than managing API consumption budgets.

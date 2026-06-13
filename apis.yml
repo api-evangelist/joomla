@@ -1,0 +1,82 @@
+aid: joomla
+name: Joomla
+description: >
+  Joomla is a free and open-source content management system (CMS) built in PHP
+  that includes a built-in REST API for managing core content types. The Web
+  Services API provides JSON endpoints for articles, categories, contacts,
+  banners, menus, modules, tags, fields, and user accounts. Authentication is
+  handled via Bearer tokens with optional HMAC security, and every endpoint
+  requires authentication unless explicitly marked public. Joomla is maintained
+  entirely by volunteers and released under the GNU General Public License.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/joomla/refs/heads/main/apis.yml
+created: 2026-06-13
+modified: 2026-06-13
+specificationVersion: "0.19"
+tags:
+  - CMS
+  - Content Management
+  - Open Source
+  - PHP
+  - REST API
+  - Articles
+  - Categories
+  - Contacts
+  - Menus
+  - Modules
+  - Users
+apis:
+  - aid: joomla:joomla-web-services-api
+    name: Joomla Web Services API
+    description: >
+      The built-in Joomla Web Services API provides RESTful JSON endpoints for
+      managing articles, categories, contacts, banners, menus, modules, tags,
+      custom fields, and user accounts in a Joomla installation. Authentication
+      uses Bearer tokens issued per-user. The API is available in Joomla 4.x
+      and later and follows the {base_url}/api/index.php/v1/ URL pattern.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.joomla.org/J4.x:Joomla_Core_APIs
+    baseURL: https://{your-joomla-site}/api/index.php/v1
+    tags:
+      - Articles
+      - Categories
+      - Contacts
+      - Banners
+      - Menus
+      - Modules
+      - Users
+      - Tags
+      - Fields
+    properties:
+      - type: Documentation
+        url: https://docs.joomla.org/J4.x:Joomla_Core_APIs
+      - type: Specification
+        url: https://docs.joomla.org/Joomla_Api_Specification
+    contact:
+      - FN: Joomla Developer Community
+        url: https://developer.joomla.org
+        email: ''
+common:
+  - type: Website
+    url: https://www.joomla.org
+  - type: Documentation
+    url: https://docs.joomla.org/J4.x:Joomla_Core_APIs
+  - type: GitHubOrg
+    url: https://github.com/joomla
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/joomla
+  - type: Blog
+    url: https://community.joomla.org/blogs.html
+  - type: Pricing
+    url: https://www.joomla.org/download.html
+  - type: X
+    url: https://twitter.com/joomla
+  - type: Plans
+    url: plans/joomla-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/joomla-rate-limits.yml
+  - type: FinOps
+    url: finops/joomla-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

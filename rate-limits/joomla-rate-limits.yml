@@ -1,0 +1,20 @@
+name: Joomla Rate Limits
+description: >
+  Joomla's built-in REST API does not impose fixed, documented rate limits at
+  the application level. Rate limiting is the responsibility of the hosting
+  environment (web server, reverse proxy, or CDN). A generic rate-limiting
+  framework is planned for a future Joomla release to allow core and third-party
+  extensions to define limits for specific interactions such as login, password
+  reset, and search.
+limits: []
+notes:
+  - Joomla core currently imposes no API-level rate limits.
+  - Server-level rate limiting (e.g., nginx, Apache, Cloudflare) is commonly
+    applied by hosting providers.
+  - A Symfony Rate Limiter-inspired framework is in planning for a future
+    Joomla release (see https://developer.joomla.org/features/46-joomla-7-x/48-defend-and-expand-market-lead/1000-rate-limiting-framework.html).
+  - Third-party extensions such as LoginRadius offer API rate-limiting plugins
+    for Joomla installations.
+references:
+  - url: https://developer.joomla.org/features/46-joomla-7-x/48-defend-and-expand-market-lead/1000-rate-limiting-framework.html
+    title: Joomla Rate Limiting Framework (planned)

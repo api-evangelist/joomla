@@ -1,0 +1,27 @@
+name: Joomla Plans and Pricing
+description: >
+  Joomla is a free and open-source CMS. The core software and its built-in
+  REST API are available at no cost under the GNU General Public License (GPL).
+  There are no official tiers or subscription plans for the Joomla software
+  itself. Costs are typically associated with hosting, premium extensions, and
+  commercial support services provided by third-party vendors.
+plans:
+  - name: Open Source (Free)
+    description: >
+      Full access to the Joomla CMS and its built-in Web Services API. Includes
+      endpoints for articles, categories, contacts, banners, menus, modules,
+      tags, fields, and user accounts. No usage fees, no API keys required from
+      Joomla itself.
+    cost: Free
+    license: GNU General Public License v2 or later
+    url: https://www.joomla.org/download.html
+    features:
+      - Full REST API access
+      - JSON responses
+      - Bearer token authentication
+      - All core content type endpoints
+      - No rate limit imposed by Joomla core (host-dependent)
+notes: >
+  Premium extensions and commercial support are offered by third-party
+  community vendors through the Joomla Extensions Directory at
+  https://extensions.joomla.org. Hosting costs vary by provider.
