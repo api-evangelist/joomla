@@ -1,0 +1,85 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "@id": "https://www.joomla.org",
+  "name": "Joomla",
+  "description": "Joomla is a free and open-source content management system (CMS) built in PHP that includes a built-in REST API for managing core content types. The Web Services API provides JSON endpoints for articles, categories, contacts, banners, menus, modules, tags, fields, and user accounts.",
+  "url": "https://www.joomla.org",
+  "applicationCategory": "Content Management System",
+  "operatingSystem": "Cross-platform",
+  "programmingLanguage": "PHP",
+  "license": "https://www.gnu.org/licenses/gpl-3.0.html",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "description": "Free and open-source"
+  },
+  "sameAs": [
+    "https://github.com/joomla",
+    "https://twitter.com/joomla",
+    "https://www.linkedin.com/company/joomla"
+  ],
+  "creator": {
+    "@type": "Organization",
+    "name": "Open Source Matters",
+    "url": "https://www.opensourcematters.org"
+  },
+  "hasPart": {
+    "@type": "WebAPI",
+    "name": "Joomla Web Services API",
+    "description": "The built-in Joomla Web Services API provides RESTful JSON endpoints for managing articles, categories, contacts, banners, menus, modules, tags, custom fields, and user accounts in a Joomla installation.",
+    "documentation": "https://docs.joomla.org/J4.x:Joomla_Core_APIs",
+    "termsOfService": "https://docs.joomla.org/Joomla_Api_Specification",
+    "provider": {
+      "@type": "Organization",
+      "name": "Joomla",
+      "url": "https://www.joomla.org"
+    },
+    "potentialAction": [
+      {
+        "@type": "Action",
+        "name": "Manage Articles",
+        "target": "{base_url}/api/index.php/v1/content/articles"
+      },
+      {
+        "@type": "Action",
+        "name": "Manage Categories",
+        "target": "{base_url}/api/index.php/v1/content/categories"
+      },
+      {
+        "@type": "Action",
+        "name": "Manage Users",
+        "target": "{base_url}/api/index.php/v1/users"
+      },
+      {
+        "@type": "Action",
+        "name": "Manage Menus",
+        "target": "{base_url}/api/index.php/v1/menus"
+      },
+      {
+        "@type": "Action",
+        "name": "Manage Contacts",
+        "target": "{base_url}/api/index.php/v1/contacts"
+      },
+      {
+        "@type": "Action",
+        "name": "Manage Banners",
+        "target": "{base_url}/api/index.php/v1/banners"
+      },
+      {
+        "@type": "Action",
+        "name": "Manage Tags",
+        "target": "{base_url}/api/index.php/v1/tags"
+      },
+      {
+        "@type": "Action",
+        "name": "Manage Modules",
+        "target": "{base_url}/api/index.php/v1/modules"
+      }
+    ],
+    "inLanguage": "en",
+    "encodingFormat": "application/json",
+    "url": "https://docs.joomla.org/J4.x:Joomla_Core_APIs"
+  }
+}
