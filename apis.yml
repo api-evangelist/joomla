@@ -8,7 +8,7 @@ description: >
   handled via Bearer tokens with optional HMAC security, and every endpoint
   requires authentication unless explicitly marked public. Joomla is maintained
   entirely by volunteers and released under the GNU General Public License.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/joomla/refs/heads/main/apis.yml
 created: 2026-06-13
 modified: 2026-06-13
@@ -34,7 +34,7 @@ apis:
       custom fields, and user accounts in a Joomla installation. Authentication
       uses Bearer tokens issued per-user. The API is available in Joomla 4.x
       and later and follows the {base_url}/api/index.php/v1/ URL pattern.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.joomla.org/J4.x:Joomla_Core_APIs
     baseURL: https://{your-joomla-site}/api/index.php/v1
     tags:
