@@ -1,86 +1,21 @@
 {
-  "aid": "joomla",
-  "url": "https://community.joomla.org/blogs.html",
-  "retrieved": "2026-06-13",
-  "posts": [
-    {
-      "title": "2026 OSM President Election Nominee Announcement",
-      "url": "https://community.joomla.org/blogs/leadership/osm-president-election-nominee-announcement.html",
-      "date": "2026-04-09",
-      "author": "Secretary OSM",
-      "source": "community.joomla.org"
-    },
-    {
-      "title": "2026 OSM President Election Results",
-      "url": "https://community.joomla.org/blogs/leadership/osm-president-election-results-2026.html",
-      "date": "2026-04-09",
-      "author": "Secretary OSM",
-      "source": "community.joomla.org"
-    },
-    {
-      "title": "Call for Candidate Manifest President Elections 2026 Part 2",
-      "url": "https://community.joomla.org/blogs/leadership/call-for-manifestos-group2-2027.html",
-      "date": "2026-03-10",
-      "author": "Secretary OSM",
-      "source": "community.joomla.org"
-    },
-    {
-      "title": "Result of Secretary Election 2026",
-      "url": "https://community.joomla.org/blogs/leadership/result-of-secretray-election.html",
-      "date": "2026-03-04",
-      "author": "Secretary OSM",
-      "source": "community.joomla.org"
-    },
-    {
-      "title": "Results of the Operation Department Coordinator Elections 2026",
-      "url": "https://community.joomla.org/blogs/leadership/results-of-the-production-department-coordinator-elections-2027.html",
-      "date": "2026-03-04",
-      "author": "Secretary OSM",
-      "source": "community.joomla.org"
-    },
-    {
-      "title": "Joomla 6.2 Alpha 1 - A first glimpse of whats to come!",
-      "url": "https://developer.joomla.org/news/1053-joomla-6-2-alpha-1-a-first-glimpse-of-whats-to-come.html",
-      "date": "2026-05-26",
-      "author": "Joomla Developer Team",
-      "source": "developer.joomla.org"
-    },
-    {
-      "title": "Joomla! 6.1 Beta 3 - Help make it stable!",
-      "url": "https://developer.joomla.org/news/1026-joomla-6-1-beta3-help-make-it-stable.html",
-      "date": "2026-03-17",
-      "author": "Joomla Developer Team",
-      "source": "developer.joomla.org"
-    },
-    {
-      "title": "A New, Sustainable Workflow for Managing Feature Requests in Joomla",
-      "url": "https://developer.joomla.org/news/1023-a-new-sustainable-workflow-for-managing-feature-requests-in-joomla.html",
-      "date": "2026-03-03",
-      "author": "Joomla Developer Team",
-      "source": "developer.joomla.org"
-    },
-    {
-      "title": "Joomla! 6.1 Beta 2 - Bug squashing time!",
-      "url": "https://developer.joomla.org/news/1022-joomla-6-1-beta2-bug-squashing-time.html",
-      "date": "2026-03-03",
-      "author": "Joomla Developer Team",
-      "source": "developer.joomla.org"
-    },
-    {
-      "title": "Joomla! 8 sprint - The Feature List",
-      "url": "https://developer.joomla.org/news/1021-joomla-8-sprint-the-feature-list.html",
-      "date": "2026-02-28",
-      "author": "Joomla Developer Team",
-      "source": "developer.joomla.org"
-    }
-  ],
   "repo": "joomla",
   "feeds": [
     {
+      "source": "https://community.joomla.org/blogs.feed?type=rss",
+      "feed_url": "https://community.joomla.org/blogs.feed?type=rss",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://www.linkedin.com/company/joomla",
-      "error": "HTTPError"
+      "feed_url": "https://www.linkedin.com/company/joomla",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:03:07Z",
+  "post_count": 0
 }

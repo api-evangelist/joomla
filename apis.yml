@@ -79,7 +79,7 @@ common:
     url: finops/joomla-finops.yml
   - type: BlogPosts
     url: blogs/blogs.json
-  - type: JSONld
+  - type: JSONLD
     url: json-ld/joomla.json
 maintainers:
   - FN: Kin Lane
