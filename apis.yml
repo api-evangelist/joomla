@@ -57,6 +57,10 @@ apis:
         url: https://developer.joomla.org
         email: ''
 common:
+  - type: VulnerabilityDisclosure
+    url: security/joomla-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/joomla-domain-security.yml
   - type: Website
     url: https://www.joomla.org
   - type: Documentation
