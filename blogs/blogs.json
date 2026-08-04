@@ -2,13 +2,6 @@
   "repo": "joomla",
   "feeds": [
     {
-      "source": "https://community.joomla.org/blogs.feed?type=rss",
-      "feed_url": "https://community.joomla.org/blogs.feed?type=rss",
-      "title": "",
-      "saved": 0,
-      "method": "feed"
-    },
-    {
       "source": "https://www.linkedin.com/company/joomla",
       "feed_url": "https://www.linkedin.com/company/joomla",
       "title": "",
@@ -16,6 +9,6 @@
       "method": "none"
     }
   ],
-  "fetched": "2026-07-11T11:50:51Z",
+  "fetched": "2026-08-01T15:49:00Z",
   "post_count": 5
 }
