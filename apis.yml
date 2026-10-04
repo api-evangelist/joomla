@@ -39,7 +39,7 @@ specificationVersion: '0.23'
 tags:
   - CMS
   - Content Management
-  - Open-Source
+  - Open Source
   - PHP
   - REST API
   - Articles
@@ -60,6 +60,7 @@ tags_raw:
   - Menus
   - Modules
   - Users
+  - Open-Source
 apis:
   - aid: joomla:joomla-web-services-api
     name: Joomla Web Services API
