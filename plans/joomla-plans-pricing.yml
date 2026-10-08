@@ -29,3 +29,15 @@ notes: >
   Premium extensions and commercial support are offered by third-party
   community vendors through the Joomla Extensions Directory at
   https://extensions.joomla.org. Hosting costs vary by provider.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Open Source (Free)
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
