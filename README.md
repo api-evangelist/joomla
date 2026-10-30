@@ -1,4 +1,4 @@
-# Joomla (joomla)
+# Joomla
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,69 +66,103 @@
 
 Joomla is a free and open-source content management system (CMS) built in PHP that includes a built-in REST API for managing core content types. The Web Services API provides JSON endpoints for articles, categories, contacts, banners, menus, modules, tags, fields, and user accounts. Authentication is handled via Bearer tokens with optional HMAC security, and every endpoint requires authentication unless explicitly marked public. Joomla is maintained entirely by volunteers and released under the GNU General Public License.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/joomla/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/joomla/refs/heads/main/apis.yml)
+**Areas:** CMS · Content Management · Open Source · PHP · REST API · Articles · Categories · Contacts · Menus · Modules · User
 
-## Tags
+## Joomla on APIs.io
 
-- CMS
-- Content Management
-- Open Source
-- PHP
-- REST API
-- Articles
-- Categories
-- Contacts
-- Menus
-- Modules
-- Users
+Everything profiled for Joomla is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/joomla/](https://apis.io/providers/joomla/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (1)
 
-- **Created:** Fri Jun 12 2026 20:00:00 GMT-0400 (Eastern Daylight Time)
-- **Modified:** Fri Jun 12 2026 20:00:00 GMT-0400 (Eastern Daylight Time)
+- [Joomla Web Services API](https://apis.io/apis/joomla/joomla-web-services-api/) — The built-in Joomla Web Services API provides RESTful JSON endpoints for managing articles, categories, contacts, banners, menus, modules, tags, custom…
 
-## APIs
+### Published properties
 
-### Joomla Web Services API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-The built-in Joomla Web Services API provides RESTful JSON endpoints for managing articles, categories, contacts, banners, menus, modules, tags, custom fields, and user accounts in a Joomla installation. Authentication uses Bearer tokens issued per-user. The API is available in Joomla 4.x and later and follows the {base_url}/api/index.php/v1/ URL pattern.
+#### Security (2)
 
-- **Human URL:** [https://docs.joomla.org/J4.x:Joomla_Core_APIs](https://docs.joomla.org/J4.x:Joomla_Core_APIs)
-- **Base URL:** `https://{your-joomla-site}/api/index.php/v1`
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags
+- [Joomla Domain Security](https://apis.io/security/joomla/joomla-domain-security/)
+- [Joomla Vulnerability Disclosure](https://apis.io/security/joomla/joomla-vulnerability-disclosure/)
 
-- Articles
-- Categories
-- Contacts
-- Banners
-- Menus
-- Modules
-- Users
-- Tags
-- Fields
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://docs.joomla.org/J4.x:Joomla_Core_APIs)
-- [Specification](https://docs.joomla.org/Joomla_Api_Specification)
+- [Joomla Plans Pricing](https://apis.io/plans/joomla/joomla-plans-pricing/)
 
-## Common Properties
+#### Rate limits (1)
+
+Published request limits.
+
+- [Joomla Rate Limits](https://apis.io/rate-limits/joomla/joomla-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Joomla Finops](https://apis.io/finops/joomla/joomla-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.joomla.org)
 - [Documentation](https://docs.joomla.org/J4.x:Joomla_Core_APIs)
-- [Git Hub Org](https://github.com/joomla)
-- [LinkedIn](https://www.linkedin.com/company/joomla)
-- [Blog](https://community.joomla.org/blogs.html)
 - [Pricing](https://www.joomla.org/download.html)
-- [X (Twitter)](https://twitter.com/joomla)
-- [Plans](plans/joomla-plans-pricing.yml)
-- [Rate Limits](rate-limits/joomla-rate-limits.yml)
-- [Fin Ops](finops/joomla-finops.yml)
-- [Blog Posts](blogs/blogs.json)
-- [J S O Nld](json-ld/joomla.json) — [JSON-LD](https://www.w3.org/TR/json-ld11/)
+- [Blog](https://community.joomla.org/blogs.html)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 12.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 10.7 |
+| Access clarity | 15.8 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/joomla/](https://apis.io/providers/joomla/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Joomla: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/joomla/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
